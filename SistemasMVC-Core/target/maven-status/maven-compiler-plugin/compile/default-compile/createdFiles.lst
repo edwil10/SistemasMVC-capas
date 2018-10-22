@@ -1,0 +1,12 @@
+pe\edu\edwil\sistemas\modelo\Venta.class
+pe\edu\edwil\sistemas\modelo\Detalleventa.class
+pe\edu\edwil\sistemas\dao\ProductoDaoImpl.class
+pe\edu\edwil\sistemas\dao\PersonaDaoImpl.class
+pe\edu\edwil\sistemas\dao\VentaDaoI.class
+pe\edu\edwil\sistemas\modelo\Persona.class
+pe\edu\edwil\sistemas\modelo\Producto.class
+pe\edu\edwil\sistemas\dao\PersonaDaoI.class
+pe\edu\edwil\sistemas\dao\ProductoDaoI.class
+pe\edu\edwil\sistemas\SysDataAccess.class
+pe\edu\edwil\sistemas\HibernateConfiguration.class
+pe\edu\edwil\sistemas\dao\VentaDaoImpl.class
