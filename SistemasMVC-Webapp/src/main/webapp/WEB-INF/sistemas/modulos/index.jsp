@@ -7,7 +7,9 @@
         event.preventDefault();
       } );
     } );
-    </script>        
+    </script>
+                <!-- Content Wrapper. Contains page content -->
+    
     <h1>Buen dia, disfrute este Sistema de ventas</h1>
     <br/>
     <a href="/pers" class="btn btn-warning">Ir Persona</a>
@@ -46,7 +48,7 @@
 
         
     </form>
-    
+    <br/>
     <c:if test="${!empty ListaPersona}">
     <table class="table">
       <thead class="thead-dark">
@@ -80,3 +82,4 @@
       </tbody>
     </table>   
     </c:if>
+        

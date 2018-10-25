@@ -31,9 +31,9 @@
             <tiles:insertAttribute name="menu" />
         </aside>
              
-       <!-- <section id="site-content" >-->
+<!--        <section id="site-content" >-->
             <tiles:insertAttribute name="body" />
-       <!-- </section>-->
+<!--        </section>-->
          
         <footer id="footer" class="main-footer">
             <tiles:insertAttribute name="footer" />

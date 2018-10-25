@@ -1,5 +1,5 @@
 
-<aside class="main-sidebar">
+<!--<aside class="main-sidebar">-->
     <!-- sidebar: style can be found in sidebar.less -->
     <section class="sidebar">
       <!-- Sidebar user panel -->
@@ -41,7 +41,7 @@
                     <li><a href="${pageContext.request.contextPath}/pru2"><i class="fa fa-circle-o"></i> Venta</a></li>
                     <li><a href="${pageContext.request.contextPath}/pru3"><i class="fa fa-circle-o"></i> Detalle venta</a></li>
                     <li><a href="${pageContext.request.contextPath}/pers"><i class="fa fa-circle-o"></i> Persona Main</a></li>
-                    <li><a href="${pageContext.request.contextPath}/report"><i class="fa fa-circle-o"></i> Persona Reporte</a></li>
+                    <li><a href="${pageContext.request.contextPath}/report"><i class="fa fa-circle-o"></i> Reporte Cliente</a></li>
                    
           </ul>
         </li>
@@ -54,4 +54,4 @@
       </ul>
     </section>
     <!-- /.sidebar -->
-  </aside>
+<!--  </aside>-->

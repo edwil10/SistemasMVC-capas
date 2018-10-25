@@ -215,7 +215,7 @@
           <li class="dropdown user user-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
               <img src="${pageContext.request.contextPath}/resources/img/user2-160x160.jpg" class="user-image" alt="User Image">
-              <span class="hidden-xs">Alexander Pierce</span>
+              <span class="hidden-xs">Wilson Mamani</span>
             </a>
             <ul class="dropdown-menu">
               <!-- User image -->
@@ -223,8 +223,8 @@
                 <img src="${pageContext.request.contextPath}/resources/img/user2-160x160.jpg" class="img-circle" alt="User Image">
 
                 <p>
-                  Alexander Pierce - Web Developer
-                  <small>Member since Nov. 2012</small>
+                  Wilson Mamani - Web Developer
+                  <small>Member since Marzo 2017</small>
                 </p>
               </li>
               <!-- Menu Body -->

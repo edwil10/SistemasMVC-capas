@@ -7,7 +7,8 @@
 <%@taglib prefix="spring" uri="http://www.springframework.org/tags" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@taglib prefix="frm" uri="http://www.springframework.org/tags/form" %>
-<br>
+    <div class="content-wrapper">
+        <section class="content">
 <div class="card">
     <div class="card-body">
         <c:url var="urlsave" value="${pageContext.request.contextPath}/guardarPersona"/>
@@ -44,3 +45,5 @@
         </frm:form> 
     </div>
 </div>
+       </section>
+       </div>
