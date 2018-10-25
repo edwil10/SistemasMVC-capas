@@ -13,7 +13,7 @@
   <table id="TAB1" populated="true" UUID="36b488e2-704d-446f-b9d9-b7a2669362e2" name="producto" objectType="TABLE" physicalName="producto" >
    <remarks></remarks>
    <folder id="FOLTAB11" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL2" populated="true" UUID="742fc15a-df9c-4293-8cdb-f3f7ab7a1d04" autoIncrement="false" autoIncrementSequenceName="producto_id_producto_seq" defaultValue="" name="id_producto" nullable="0" physicalName="id_producto" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL2" populated="true" UUID="742fc15a-df9c-4293-8cdb-f3f7ab7a1d04" autoIncrement="true" autoIncrementSequenceName="producto_idProducto_seq" defaultValue="" name="idProducto" nullable="0" physicalName="idProducto" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     <column id="COL3" populated="true" UUID="41a8651f-e9f5-400a-b214-8bdf217b91f4" autoIncrement="false" autoIncrementSequenceName="producto_nombre_seq" defaultValue="" name="nombre" nullable="0" physicalName="nombre" precision="60" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -32,17 +32,17 @@
     </folder>
     <folder id="FOLTAB14" populated="true" name="Indices" physicalName="Indices" type="4">
     <index id="IDX6" populated="true" UUID="b519ffa1-9a9b-4a23-9a0c-e140927d35e0" clustered="false" name="producto_pk" physicalName="producto_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC7" populated="true" UUID="9b453c6e-0637-42f4-ad32-7ef4bdfadd77" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="id_producto" physicalName="id_producto" />
+     <index-column id="IDC7" populated="true" UUID="9b453c6e-0637-42f4-ad32-7ef4bdfadd77" ascendingOrDescending="UNSPECIFIED" column-ref="COL2" name="idProducto" physicalName="idProducto" />
     </index>
    </folder>
   </table>
   <table id="TAB8" populated="true" UUID="edf3833b-3f7d-4546-a350-9c625f689060" name="venta" objectType="TABLE" physicalName="venta" >
    <remarks></remarks>
    <folder id="FOLTAB81" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL9" populated="true" UUID="8ead9a15-0d2c-4322-8dfd-7fc153510ec3" autoIncrement="false" autoIncrementSequenceName="venta_id_venta_seq" defaultValue="" name="id_venta" nullable="0" physicalName="id_venta" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL9" populated="true" UUID="8ead9a15-0d2c-4322-8dfd-7fc153510ec3" autoIncrement="true" autoIncrementSequenceName="venta_idVenta_seq" defaultValue="" name="idVenta" nullable="0" physicalName="idVenta" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL10" populated="true" UUID="84c02c44-5402-4c6b-8927-f6d334d0ca40" autoIncrement="false" autoIncrementSequenceName="persona_id_persona_seq" defaultValue="" name="id_persona" nullable="0" physicalName="id_persona" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL10" populated="true" UUID="84c02c44-5402-4c6b-8927-f6d334d0ca40" autoIncrement="false" autoIncrementSequenceName="persona_id_persona_seq" defaultValue="" name="idPersona" nullable="0" physicalName="idPersona" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     <column id="COL11" populated="true" UUID="b7144fb5-7d39-4c45-80b5-c174813adfae" autoIncrement="false" autoIncrementSequenceName="venta_fecha_seq" defaultValue="" name="fecha" nullable="0" physicalName="fecha" precision="15" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -58,20 +58,20 @@
     </folder>
     <folder id="FOLTAB84" populated="true" name="Indices" physicalName="Indices" type="4">
     <index id="IDX13" populated="true" UUID="9f92fc9a-8dbc-4bb8-bb42-7d4228ed62e4" clustered="false" name="venta_pk" physicalName="venta_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC14" populated="true" UUID="76385513-5f54-4c48-8aa8-801b6038258f" ascendingOrDescending="UNSPECIFIED" column-ref="COL9" name="id_venta" physicalName="id_venta" />
+     <index-column id="IDC14" populated="true" UUID="76385513-5f54-4c48-8aa8-801b6038258f" ascendingOrDescending="UNSPECIFIED" column-ref="COL9" name="idVenta" physicalName="idVenta" />
     </index>
    </folder>
   </table>
   <table id="TAB15" populated="true" UUID="82bbad23-97b3-4dae-a93c-57796410d32c" name="detalleVenta" objectType="TABLE" physicalName="detalleVenta" >
    <remarks></remarks>
    <folder id="FOLTAB151" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL16" populated="true" UUID="dbc8c76d-e8fe-4412-9584-88266c6462c9" autoIncrement="false" autoIncrementSequenceName="detalleVenta_id_detalleVenta_seq" defaultValue="" name="id_detalleVenta" nullable="0" physicalName="id_detalleVenta" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL16" populated="true" UUID="dbc8c76d-e8fe-4412-9584-88266c6462c9" autoIncrement="true" autoIncrementSequenceName="detalleVenta_idDetalleVenta_seq" defaultValue="" name="idDetalleVenta" nullable="0" physicalName="idDetalleVenta" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL17" populated="true" UUID="e8feff0e-a1d5-4eb7-9a1d-b09ee4e22f7a" autoIncrement="false" autoIncrementSequenceName="venta_id_venta_seq" defaultValue="" name="id_venta" nullable="0" physicalName="id_venta" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL17" populated="true" UUID="e8feff0e-a1d5-4eb7-9a1d-b09ee4e22f7a" autoIncrement="false" autoIncrementSequenceName="venta_id_venta_seq" defaultValue="" name="idVenta" nullable="0" physicalName="idVenta" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
-    <column id="COL18" populated="true" UUID="93e64005-1e69-4bf5-a7e6-ecd905206b54" autoIncrement="false" autoIncrementSequenceName="producto_id_producto_seq" defaultValue="" name="id_producto" nullable="0" physicalName="id_producto" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL18" populated="true" UUID="93e64005-1e69-4bf5-a7e6-ecd905206b54" autoIncrement="false" autoIncrementSequenceName="producto_id_producto_seq" defaultValue="" name="idProducto" nullable="0" physicalName="idProducto" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     <column id="COL19" populated="true" UUID="27ba1736-188b-445b-80d4-1ac5a9b53d3d" autoIncrement="false" autoIncrementSequenceName="detalleVenta_cantidad_seq" defaultValue="" name="cantidad" nullable="0" physicalName="cantidad" precision="30" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -84,14 +84,14 @@
     </folder>
     <folder id="FOLTAB154" populated="true" name="Indices" physicalName="Indices" type="4">
     <index id="IDX20" populated="true" UUID="f3a6175c-7fea-4452-bfb2-f049fff5209a" clustered="false" name="detalleVenta_pk" physicalName="detalleVenta_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC21" populated="true" UUID="e502a8b5-d443-412c-919d-4f10f8be45bc" ascendingOrDescending="UNSPECIFIED" column-ref="COL16" name="id_detalleVenta" physicalName="id_detalleVenta" />
+     <index-column id="IDC21" populated="true" UUID="e502a8b5-d443-412c-919d-4f10f8be45bc" ascendingOrDescending="UNSPECIFIED" column-ref="COL16" name="idDetalleVenta" physicalName="idDetalleVenta" />
     </index>
    </folder>
   </table>
   <table id="TAB22" populated="true" UUID="d900f72d-e1f4-4ac5-bf0c-bdec7aa126e8" name="persona" objectType="TABLE" physicalName="persona" >
    <remarks></remarks>
    <folder id="FOLTAB221" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL23" populated="true" UUID="5661c83b-21ce-408b-8ac1-98601575c70f" autoIncrement="false" autoIncrementSequenceName="persona_id_persona_seq" defaultValue="" name="id_persona" nullable="0" physicalName="id_persona" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL23" populated="true" UUID="5661c83b-21ce-408b-8ac1-98601575c70f" autoIncrement="true" autoIncrementSequenceName="persona_idPersona_seq" defaultValue="" name="idPersona" nullable="0" physicalName="idPersona" precision="0" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
      <remarks></remarks>
     </column>
     <column id="COL24" populated="true" UUID="0626b4a8-d69b-405b-9f88-65a7f19aa1ea" autoIncrement="false" autoIncrementSequenceName="persona_nombres_seq" defaultValue="" name="nombres" nullable="0" physicalName="nombres" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
@@ -119,7 +119,7 @@
     </folder>
     <folder id="FOLTAB224" populated="true" name="Indices" physicalName="Indices" type="4">
     <index id="IDX30" populated="true" UUID="89770fff-6743-48fc-bed6-e8a3c9f7280c" clustered="false" name="persona_pk" physicalName="persona_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC31" populated="true" UUID="1a6e2d37-21f3-4b40-8b57-46d9556530e9" ascendingOrDescending="UNSPECIFIED" column-ref="COL23" name="id_persona" physicalName="id_persona" />
+     <index-column id="IDC31" populated="true" UUID="1a6e2d37-21f3-4b40-8b57-46d9556530e9" ascendingOrDescending="UNSPECIFIED" column-ref="COL23" name="idPersona" physicalName="idPersona" />
     </index>
    </folder>
   </table>
